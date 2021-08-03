@@ -1,4 +1,5 @@
 # poocoin-alerts
+a terribly written email notif proof of concept
 
 ## dependencies
 go (https://golang.org/dl/)
