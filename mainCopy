@@ -1,0 +1,155 @@
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"net/http"
+	"net/smtp"
+	"os"
+	"time"
+)
+
+func main() {
+
+	for i := 0; i < 2; i++ {
+
+		var websiteLink string
+		var websiteFile string
+		var website string
+		var websiteFileOld string
+		var websiteFileNew string
+
+		if i == 0 {
+			website = "Poocoin.app"
+			websiteLink = "https://poocoin.app/whitelist1-tokens.json"
+			websiteFile = "./last_response_poocoin.txt"
+			checkUpdates(website, websiteLink, websiteFile)
+		}
+
+		if i == 1 {
+			website = "Coingecko"
+			websiteLink = "https://www.coingecko.com/en/coins/recently_added?page=1"
+			websiteFileOld = "./last_response_coingecko_old.txt"
+			websiteFileNew = "./last_response_coingecko_new.txt"
+			checkUpdatesSpecificLine(website, websiteLink, websiteFile, websiteFileOld, websiteFileNew)
+
+			i = -1
+		}
+	}
+}
+
+func readLine(lineNum int, files string) (line string) {
+
+	var lastLine int
+	var err error
+
+	file, err := os.Open(files)
+	if err != nil {
+		log.Fatalf("failed opening file: %s", err)
+	}
+
+	sc := bufio.NewScanner(file)
+	for sc.Scan() {
+		lastLine++
+		if lastLine == lineNum {
+			// you can return sc.Bytes() if you need output in []bytes
+			return sc.Text()
+		}
+	}
+	return line
+}
+
+func checkUpdatesSpecificLine(website string, websiteLink string, websiteFile string, websiteFileOld string, websiteFileNew string) {
+
+	fmt.Println("fetching updates for " + website)
+
+	r, err := http.Get(websiteLink)
+	if err != nil {
+		// handle error
+	}
+	defer r.Body.Close()
+
+	body, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	response := string(body)
+
+	ioutil.WriteFile(websiteFileNew, []byte(response), 0644)
+
+	if readLine(1994, websiteFileNew) != readLine(1994, websiteFileOld) {
+		ioutil.WriteFile(websiteFileOld, []byte(response), 0644)
+		//email
+		fmt.Println("change")
+		sendEmail(website)
+	} else {
+		// do nothing
+		fmt.Println("no change")
+	}
+
+	time.Sleep(time.Minute / 8)
+}
+
+func checkUpdates(website string, websiteLink string, websiteFile string) {
+
+	fmt.Println("fetching updates for " + website)
+
+	r, err := http.Get(websiteLink)
+	if err != nil {
+		// handle error
+	}
+	defer r.Body.Close()
+
+	body, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	response := string(body)
+
+	lastResponse, err := ioutil.ReadFile(websiteFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	if response != string(lastResponse) {
+		ioutil.WriteFile(websiteFile, []byte(response), 0644)
+		//email
+		fmt.Println("change")
+		sendEmail(website)
+	} else {
+		// do nothing
+		fmt.Println("no change")
+	}
+
+	time.Sleep(time.Minute / 8)
+}
+
+func sendEmail(websiteName string) {
+	email := "talos.tester.1@gmail.com"
+	pass := "Tester123!"
+	smtpHost := "smtp.gmail.com"
+	smtpPort := "587"
+	message := []byte(websiteName + " updated their list!")
+
+	// add recipient emails here
+	to := []string{
+		"talos.tester.1@gmail.com",
+		//"7rossilli7@gmail.com",
+		//"rrossilli55@gmail.com",
+		//"Mrmonihan@hotmail.com",
+		//"Mrmonihan1@gmail.com",
+	}
+
+	auth := smtp.PlainAuth("", email, pass, smtpHost)
+
+	err := smtp.SendMail(smtpHost+":"+smtpPort, auth, email, to, message)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println("Email Sent Successfully!")
+}

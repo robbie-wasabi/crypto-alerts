@@ -1,0 +1,200 @@
+{
+  "0xb27adaffb9fea1801459a1a81b17218288c097cc": {
+    "banner": "/images/p200.png",
+    "website": "https://poocoin.app",
+    "telegram": "https://t.me/poocointokenchat"
+  },
+  "0x498e3739d58aae82656030bcbccf5ac63e0e57e1": {
+    "banner": "/images/promotions/pokemoon.png",
+    "website": "https://pokemoon.app/",
+    "telegram": "https://t.me/whynotrebuild"
+  },
+  "0xa391ad657d76d337745d4ee208e2b6f8037c69b4": true,
+  "0x7d2346a977941a193292ae1b6708f37665c603ff": true,
+  "0xa4425328071500e0e665b6e52ccad19a36e957d0": true,
+  "0x3b25d2a8cb244930a640c1b9da4a66f1d74f6d90": true,
+  "0xa1fd60c51c0bdac1ff5bb6067a24d61441e39569": {
+    "website": "https://safenebula.com",
+    "telegram": "https://t.me/safenebula"
+  },
+  "0xce1040c432ebd6a018aa7ca81ac9a23c6abf69e4": true,
+  "0x3c00f8fcc8791fa78daa4a480095ec7d475781e2": true,
+  "0x5e9280d53f28281ce098c8f64e49f5f5dc9ea185": {
+    "banner": "/images/promotions/snowge.gif",
+    "website": "https://snowgecoin.com",
+    "telegram": "http://t.me/snowgecoin"
+  },
+  "0x869dd7a64afbe5370a8c591d9b8650be60c0b8f6": {
+    "website": "https://fastmoon.finance",
+    "telegram": "https://t.me/FastMoonFinance"
+  },
+  "0xe3c40ca5a0d8b48c45a2609e558cea98c5805351": true,
+  "0xce5814efff15d53efd8025b9f2006d4d7d640b9b": {
+    "banner": "/images/promotions/moonstar1.jpg",
+    "website": "https://moonstartoken.com/",
+    "telegram": "https://t.me/moonstarchat"
+  },
+  "0x0cf011a946f23a03ceff92a4632d5f9288c6c70d": {
+    "website": "https://ncat.fun",
+    "telegram": "https://t.me/ncattoken"
+  },
+  "0x182c763a4b2fbd18c9b5f2d18102a0ddd9d5df26": {
+    "website": "http://hogl.finance/",
+    "telegram": "https://t.me/HOGLfinance"
+  },
+  "0x8887917b46f71dbcb5e895e85887dc2eaa64b22a": {
+    "banner": "/images/promotions/woof.png",
+    "website": "http://woofpackcoin.com/",
+    "telegram": "https://t.me/woofpacktoken"
+  },
+  "0x18782b1d35d377905368de4a18ebad055594862d": {
+    "banner": "/images/promotions/tritoken.png",
+    "website": "https://tritoken.finance/",
+    "telegram": "https://t.me/TokenTri"
+  },
+  "0x69832F67e3d2d319BA38ADd0c577F360707D06B1": {
+    "website": "https://fourtune.finance/",
+    "telegram": "https://t.me/fourtunebsc"
+  },
+  "0x1ca40fcac21038091900b4ca62b39599f3c6b6c8": {
+    "website": "https://www.fairorca.com/",
+    "telegram": "https://t.me/FairOrca"
+  },
+  "0xb7cef49d89321e22dd3f51a212d58398ad542640": {
+    "banner": "/images/promotions/milk.png",
+    "website": "https://milktoken.net",
+    "telegram": "https://t.me/milk_token"
+  },
+  "0x0110ff9e7e4028a5337f07841437b92d5bf53762": {
+    "banner": "/images/promotions/butter.png",
+    "website": "http://milktoken.net/butter",
+    "telegram": "https://t.me/milk_token"
+  },
+  "0xfed2b9ed4f3a6baa02543a9db86524dd790fcc65": {
+    "banner": "/images/promotions/binacaps.jpg",
+    "website": "https://bottlecaps.club/",
+    "telegram": "https://t.me/capscrew"
+  },
+  "0xfcb055630d7f29cf16d70a3b5b51a2aa0cc92ed0": {
+    "banner": "/images/promotions/superpepebros.png",
+    "telegram": "https://t.me/Superpepebroschat",
+    "website": "https://v2.superpepebros.finance/"
+  },
+  "0x05c6947918f6ac75920bc73bdcbd4d7ee5b04c50": {
+    "banner": "/images/promotions/messi.png",
+    "website": "https://messi.finance/",
+    "telegram": "https://t.me/messifinance"
+  },
+  "0x380624a4a7e69db1ca07deecf764025fc224d056": {
+    "banner": "/images/promotions/safebtc.png",
+    "website": "https://safebitcoin.io",
+    "telegram": "https://t.me/safebtcoriginal"
+  },
+  "0x82eb29d3eb0719af341f6b18c0d9d749c0cd16b6": {
+    "banner": "/images/promotions/marsmission.png",
+    "website": "https://marsmission.finance",
+    "telegram": "https://t.me/marsmission_financeBSC"
+  },
+  "0xd07cb33d1c9d75349eb72359022d7be5d8350c0a": {
+    "banner": "/images/promotions/horizon.png",
+    "website": "https://hzn.app/",
+    "telegram": "https://t.me/horizontokenchat"
+  },
+  "0xce195c777e1ce96c30ebec54c91d20417a068706": {
+    "banner": "/images/promotions/hugofinance.png",
+    "website": "https://hugo.finance",
+    "telegram": "https://t.me/hugofinance"
+  },
+  "0x133ce282ebf0332a108df365b465476ca507eb9c": {
+    "banner": "/images/promotions/rock.png",
+    "website": "https://rockcoin.xyz",
+    "telegram": "https://t.me/RockCoinCommunity"
+  },
+  "0xef2ec90e0b8d4cdfdb090989ea1bc663f0d680bf": {
+    "banner": "/images/promotions/orfano.jpg",
+    "website": "https://orfano.io",
+    "telegram": "https://t.me/OrfanoToken"
+  },
+  "0x4a67cb593aa442328546a0514ddc9d43d82da6ea": {
+    "banner": "/images/promotions/sugar.png",
+    "website": "https://sugartoken.net/",
+    "telegram": "https://t.me/SugarToken"
+  },
+  "0xd1587ee50e0333f0c4adcf261379a61b1486c5d2": {
+    "banner": "/images/promotions/windswap1.png",
+    "website": "https://windswap.finance/home",
+    "telegram": "https://t.me/windswapmembers"
+  },
+  "0x31045e7023e6c388f9447e632a3f9eaff90393fa": {
+    "banner": "/images/promotions/safetoken.png",
+    "website": "https://safetoken.xyz/",
+    "telegram": "https://t.me/safetokenbsc"
+  },
+  "0x9c945e18ca5cbe2d3bb047f7c45d376303688da4": {
+    "banner": "/images/promotions/goldstandard.jpg",
+    "website": "https://www.goldstandardtoken.com/",
+    "telegram": "https://t.me/goldSTNDR"
+  },
+  "0xf178478ef28fa28b3e98c06d2e3405964dee3bd6": {
+    "banner": "/images/promotions/zip.jpg",
+    "website": "https://www.zipfinance.info/",
+    "telegram": "https://t.me/ZipFinance"
+  },
+  "0x6471816a6bfdf89bfe021003950fac7b11a40861": {
+    "website": "https://silentmoon.space/",
+    "telegram": "https://t.me/SilentMoonToken"
+  },
+  "0x3d7b2736826f59e80721b3e364e06fecd49d88c4": {
+    "banner": "/images/promotions/burny.png",
+    "website": "https://www.burnytokenbsc.xyz/",
+    "telegram": "https://t.me/BurnyTokenBSC"
+  },
+  "0xee738a9e5fb78c24d26cecd30389ed977c38d0ca": {
+    "banner": "/images/promotions/fairsafe.png",
+    "website": "https://fairsafe.finance/",
+    "telegram": "https://t.me/fairsafe"
+  },
+  "0x013ba4347060314253bc8c2220bf5485cded8d49": {
+    "banner": "/images/promotions/torch.png",
+    "website": "https://torchtokens.com/",
+    "telegram": "https://t.me/TorchToken"
+  },
+  "0x069b2619eb24367a46fda638bd1b88aa4dad7879": {
+    "website": "https://moondao.finance/",
+    "telegram": "https://t.me/moon_dao"
+  },
+  "0x81e4d494b85a24a58a6ba45c9b418b32a4e039de": {
+    "website": "https://www.moontoken.xyz/",
+    "telegram": "https://t.me/MoonTokenBSCChat"
+  },
+  "0xfad8e46123d7b4e77496491769c167ff894d2acb": {
+    "website": "https://foxfinance.io/",
+    "telegram": "https://t.me/foxfinancebsc"
+  },
+  "0x4f47bdf3bb50329d5386ca1ac7103ab859691535": {
+    "banner": "/images/promotions/polar.png",
+    "website": "https://polarcoin.co/",
+    "telegram": "https://t.me/PolarCoinn"
+  },
+  "0xe5c5923843ba152758773af7ea73c21793899135": {
+    "banner": "/images/promotions/safefairmoon.jpg",
+    "website": "https://safefairmoon.com/",
+    "telegram": "https://t.me/SafeFairMoonOfficial"
+  },
+  "0x13da6e58ffe1540d7ae125b76c5f16a4063754cd": {
+    "telegram": "https://t.me/anarchychatchan"
+  },
+  "0x651bfbb26455294408aabc61a7adf427bf149898": {
+    "banner": "/images/promotions/mello1.png",
+    "website": "https://mellotoken.com",
+    "telegram": "https://t.me/mellotoken"
+  },
+  "0x17dda4de32d5d5a43053703e503230953346c7ed": {
+    "website": "https://won.finance/",
+    "telegram": "https://t.me/wonfinance"
+  },
+  "0x4cc20a024324b6c487f50ba448999ae29f8f6022": {
+    "website": "https://www.100xcoinlaunch.com/",
+    "telegram": "https://t.me/Eloannouncements"
+  }
+}
